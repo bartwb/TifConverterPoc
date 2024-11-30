@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  /* Primary Colors */
+  --color-background: #121212;       /* Main background */
+  --color-surface: #1E1E1E;          /* Surface elements like cards or panels */
+  --color-primary: #355fdd;          /* Primary accent color */
+  --color-primary-variant: #BB86FC;  /* Darker variant of the primary accent */
+
+  /* Text Colors */
+  --color-text-primary: #f4f3f3;     /* Main text color */
+  --color-text-secondary: #A0A0A0;   /* Secondary text, less emphasis */
+  --color-text-muted: #757575;       /* Muted text for subtle elements */
+
+  /* Accent Colors */
+  --color-accent: #03DAC5;           /* Secondary accent, for highlights */
+  --color-accent-variant: #018786;   /* Darker variant of the accent */
+
+  /* Neutral Shades */
+  --color-border: #333333;           /* Border color for elements */
+  --color-overlay: rgba(0, 0, 0, 0.6); /* Overlay or shadow for modals */
+  
+  /* Success, Warning, Error Colors */
+  --color-success: #4CAF50;          /* Success messages or highlights */
+  --color-warning: #FFB74D;          /* Warning or caution messages */
+  --color-error: #CF6679;            /* Error messages or alerts */
+}
+

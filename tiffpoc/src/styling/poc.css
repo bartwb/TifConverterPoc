@@ -1,0 +1,94 @@
+.mainWrapper {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    padding: 60px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.mainContent {
+    background-color: var(--color-surface);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px var(--color-overlay);
+    padding: 40px 30px;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.mainContent h1 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Input and Loader Styling */
+.mainContent input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    color: var(--color-text-secondary);
+    padding: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: var(--color-surface);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mainContent input[type="file"]:disabled {
+    cursor: not-allowed;
+    color: var(--color-text-muted);
+    background-color: #333333;
+}
+
+.mainContent .ClipLoader {
+    display: block;
+    margin: 10px auto;
+}
+
+.mainContent img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--color-border);
+}
+
+.mainContent button {
+    background-color: var(--color-primary);
+    color: var(--color-text-primary);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.mainContent button:disabled {
+    background-color: var(--color-border);
+    cursor: not-allowed;
+    color: var(--color-text-muted);
+}
+
+.mainContent button:hover:not(:disabled) {
+    background-color: var(--color-primary-variant);
+}
+
+.mainContent button:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+.mainContent p {
+    color: var(--color-text-secondary);
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.mainContent p[style*="color: red"] {
+    color: var(--color-error);
+    font-size: 1em;
+    margin: 10px 0;
+}
